@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>taipeitrip</key>
+	<array>
+		<dict>
+			<key>ID</key>
+			<string>0001</string>
+			<key>Name</key>
+			<string>晚餐</string>
+			<key>Price</key>
+			<integer>700</integer>
+			<key>Payer</key>
+			<array>
+				<string>userA</string>
+			</array>
+			<key>Buyer</key>
+			<array>
+				<string>userB</string>
+				<string>userA</string>
+				<string>userC</string>
+			</array>
+		</dict>
+		<dict>
+			<key>ID</key>
+			<string>0002</string>
+			<key>Name</key>
+			<string>旅館</string>
+			<key>Price</key>
+			<real>6000</real>
+			<key>Payer</key>
+			<array>
+				<string>userB</string>
+			</array>
+			<key>Buyer</key>
+			<array>
+				<string>userB</string>
+				<string>userC</string>
+				<string>userA</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

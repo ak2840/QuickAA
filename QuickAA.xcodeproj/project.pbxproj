@@ -13,6 +13,8 @@
 		243CA03120494E10004D7FB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243CA03020494E10004D7FB5 /* Assets.xcassets */; };
 		243CA03420494E10004D7FB5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243CA03220494E10004D7FB5 /* LaunchScreen.storyboard */; };
 		243CA03F20494E10004D7FB5 /* QuickAATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 243CA03E20494E10004D7FB5 /* QuickAATests.swift */; };
+		245E084E206B907E00BEE5C0 /* Demo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 245E084D206B907E00BEE5C0 /* Demo.plist */; };
+		245E0850206B952E00BEE5C0 /* User.plist in Resources */ = {isa = PBXBuildFile; fileRef = 245E084F206B952E00BEE5C0 /* User.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		243CA03A20494E10004D7FB5 /* QuickAATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickAATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		243CA03E20494E10004D7FB5 /* QuickAATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickAATests.swift; sourceTree = "<group>"; };
 		243CA04020494E10004D7FB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		245E084D206B907E00BEE5C0 /* Demo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Demo.plist; sourceTree = "<group>"; };
+		245E084F206B952E00BEE5C0 /* User.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = User.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 				243CA03020494E10004D7FB5 /* Assets.xcassets */,
 				243CA03220494E10004D7FB5 /* LaunchScreen.storyboard */,
 				243CA03520494E10004D7FB5 /* Info.plist */,
+				245E084D206B907E00BEE5C0 /* Demo.plist */,
+				245E084F206B952E00BEE5C0 /* User.plist */,
 			);
 			path = QuickAA;
 			sourceTree = "<group>";
@@ -180,7 +186,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				243CA03420494E10004D7FB5 /* LaunchScreen.storyboard in Resources */,
+				245E084E206B907E00BEE5C0 /* Demo.plist in Resources */,
 				243CA03120494E10004D7FB5 /* Assets.xcassets in Resources */,
+				245E0850206B952E00BEE5C0 /* User.plist in Resources */,
 				243CA02F20494E10004D7FB5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -360,7 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ak2840.QuickAA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -375,7 +383,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ak2840.QuickAA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

@@ -7,7 +7,6 @@
 //
 
 import XCTest
-@testable import QuickAA
 
 class QuickAATests: XCTestCase {
     
